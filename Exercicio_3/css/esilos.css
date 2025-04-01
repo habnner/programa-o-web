@@ -35,14 +35,19 @@ nav{
     letter-spacing: 3px;
     margin-left: 32px;
 }
-table{border-style: groove; background-color: white;
+table{border-style: groove; background-color: beige;
 height: auto;
 border-radius: 10px;
 border: 1px solid black;
 width: 50%;
-border-collapse: collapse;
 text-align: left;
 }
 body{
     background-color: #C0C0C0;
+    background-image: url('https://www.sydle.com/blog/assets/post/biblioteca-digital-63e521409e3c274f1050e336/capa%20biblioteca%20digital.png?w=1200') ; width: auto;height: auto; 
 }
+h1{
+    color: rgb(7, 6, 6);
+}
+h2{color: rgba(0, 0, 0, 0.582);}
+
