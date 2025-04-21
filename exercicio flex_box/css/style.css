@@ -1,0 +1,64 @@
+body{
+    background-color: #dcdcdc;
+    margin: 0;
+
+}
+
+.flex-pai{
+    display: flex;
+    background-color: #6495ED;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;
+    
+
+}
+
+.flex-item{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+.cabeçalho{
+    background-color: 	#3CB371;
+    text-align: center;
+    height: 20px;
+    padding: 15px 0;
+    color: white;
+}
+.menu{
+    background-color: orange;
+    width: 250px;
+    padding: 10px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.rodape{
+    background-color: #023a68;
+    text-align: center;
+    height: 20px;
+    padding: 10px 0;
+    color: white;}
+
+.resumo{
+    background-color: #e11d48;
+}
+.card{
+    background-color: #8b5cf6;
+}
+.grupo-resumo,
+.grupo-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
