@@ -1,0 +1,35 @@
+
+
+.container {
+
+display: grid;
+grid-template-columns: 100px 100px;
+grid-template-rows: 100px 100px;
+gap: 10px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    
+}
+
+.cor1{
+    background-color: aquamarine;
+}
+.cor2{
+    background-color: blue;
+}
+.cor3{
+    background-color: green;
+}
+.cor4{
+    background-color: greenyellow;
+}
+
+.item{
+    border-radius: 10px;
+
+}
